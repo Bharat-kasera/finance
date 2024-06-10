@@ -51,5 +51,5 @@ export const siteConfig: Metadata = {
 } as const;
 
 export const links = {
-  sourceCode: "https://github.com/Bharat-kasera/finance",
+  sourceCode: "https://github.com/Bharat-kasera/finance/",
 } as const;

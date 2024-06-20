@@ -29,14 +29,14 @@ export const Header = () => {
               <Loader2 className="size-8 animate-spin text-slate-400" />
             </ClerkLoading>
 
-            <Link
+            {/* <Link
               href={links.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
               title="Source Code"
             >
               <Image src="/github.svg" alt="GitHub" height={24} width={24} />
-            </Link>
+            </Link> */}
           </div>
         </div>
 

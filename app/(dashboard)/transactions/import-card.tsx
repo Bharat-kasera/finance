@@ -10,7 +10,7 @@ import { ImportTable } from "./import-table";
 const dateFormat = "yyyy-MM-dd HH:mm:ss";
 const outputFormat = "yyyy-MM-dd";
 
-const requiredOptions = ["amount", "date", "payee"];
+const requiredOptions = ["amount", "date", "payee","account","category"];
 
 type SelectedColumnsState = {
   [key: string]: string | null;

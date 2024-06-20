@@ -13,7 +13,7 @@ type TableHeadSelectProps = {
   onChange: (columnIndex: number, value: string | null) => void;
 };
 
-const options = ["amount", "payee", "date"];
+const options = ["amount", "payee", "date","category","account"];
 
 export const TableHeadSelect = ({
   columnIndex,

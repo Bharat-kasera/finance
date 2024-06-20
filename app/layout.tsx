@@ -2,7 +2,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import type { PropsWithChildren } from "react";
-
+import NextTopLoader from 'nextjs-toploader';
 import { Toaster } from "@/components/ui/sonner";
 import { siteConfig } from "@/config";
 import { QueryProviders } from "@/providers/query-provider";
@@ -23,6 +23,7 @@ const RootLayout = ({ children }: Readonly<PropsWithChildren>) => {
     <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
+        <NextTopLoader color="#2380D9"  />
           <QueryProviders>
             <SheetProvider />
             <Toaster richColors theme="light" />
